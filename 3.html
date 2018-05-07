@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分页</title>
+	<style>
+		ul{
+			list-style: none;
+			margin: 0 auto;
+			width: 389px;
+			height: 49px;
+		}
+		li{
+			width: 32px;
+			height: 32px;
+			background-color: #3A9BD9;
+			font-size: 12px;
+			line-height: 32px;
+			text-align: center;
+			margin-left: 2px;
+			float: left;
+		}
+		li a{
+			display: block;
+			color: #FFF8F5;
+			width: 32px;
+			height: 32px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		li:first-child{
+			width: 32px;
+			height: 32px;
+			background: url('images/left.png') no-repeat;
+		}
+		li:last-child{
+			width: 32px;
+			height: 32px;
+			background: url('images/right.png') no-repeat;
+		}
+		ul .act,li a:hover{
+			background-color: #595454;
+			color: #3A9BD9;
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="###"></a></li>
+		<li><a href="###">&lt;</a></li>
+		<li><a href="###">1</a></li>
+		<li><a href="###">2</a></li>
+		<li><a href="###"  class="act">3</a></li>
+		<li><a href="###">4</a></li>
+		<li><a href="###">5</a></li>
+		<li><a href="###">6</a></li>
+		<li><a href="###">7</a></li>
+		<li><a href="###">&gt;</a></li>
+		<li><a href="###"></a></li>
+	</ul>
+</body>
+</html>

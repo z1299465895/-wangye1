@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1(28)</title>
+	<style>
+		div,img,h3,dl,dt,dd,ul,li,button,span{
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+			color: #666666;
+			font-family: 微软雅黑;
+		}
+		a{
+			text-decoration: none;
+			color: #4470AD;
+		}
+		ul{
+			list-style: none;
+		}
+		.box{
+			width: 733px;
+			height: 288px;
+			margin: 0 auto;
+		}
+		.clearfix::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.img{
+			margin-top: 17px;
+			margin-left: 25px;
+			margin-bottom: 16px;
+			float: left;
+		}
+		.content{
+			width: 445px;
+			height: 256px;
+			margin-right: 59px;
+			margin-bottom: 15px;
+			margin-top: 17px;
+			float: right;
+		}
+		.content h3{
+			display: inline-block;
+			width: 97px;
+			height: 24px;
+			font-size: 16px;
+			line-height: 24px;
+			color: #3F3F3F;
+			background: url('images/完本.png')no-repeat right;
+		}
+		.box .content ul{
+			margin-top: 8px;
+		}
+		.box .content ul li{
+			float: left;
+			background: url('images/点.png') no-repeat left;
+			line-height: 25px;
+			padding-left: 6px;
+			margin-right: 29px;
+		}
+		.box .content dl{
+			line-height: 25px;
+		}
+		.box .content dl dt{
+			float: left;
+		}
+		.box .content .a{
+			margin-left: 21px;
+		}
+		.box .content .pingfen{
+			display: inline-block;
+			height: 31px;
+			line-height: 31px;
+		}
+		.box .content .star{
+			display: inline-block;
+			width: 16px;
+			height: 31px;
+			line-height: 31px;
+			vertical-align: middle;
+			background: url('images/黄星星.png') no-repeat center center;
+		}
+		.box .content .hui{
+			display: inline-block;
+			background: url('images/灰星星.png') no-repeat center center;
+		}
+		.box .content .b{
+			margin-left: 6px;
+			vertical-align: middle;
+		}
+		.box .content .shu{
+			margin-left: 5px;
+			margin-right: 10px;
+		}
+		.box .content .c{
+			vertical-align: middle;
+		}
+		.box .content .pinglun{
+			margin-left: 90px;
+			background: url('images/评论.png') no-repeat left;
+			padding-left: 15px;
+			color: #BF6161;
+		}
+		.box .content .fenxiang{
+			margin-left: 20px;
+			background: url('images/分享.png') no-repeat left;
+			padding-left: 14px;
+			color: #BF6161;
+		}
+		.box .content .btns{
+			width: 300px;
+			margin-top: 33px;
+		}
+		.box .content .btns .btn{
+			width: 98px;
+			height: 33px;
+			border: 1px solid #5A8AC0;
+			background-color: #6A9BD2;
+			color: #FFFFFF;
+			font-weight: bold;
+			line-height: 33px;
+			text-align: center;
+		}
+		.box .content .btns .btn1{
+			border: 1px solid #BCBCBC;
+			color: #555555;
+			background: url('images/渐变.png');
+		}
+		.box .content .btns a{
+			margin-left: 10px;
+			background: url('images/放入购书单.png') no-repeat left;
+			padding-left: 18px;
+			vertical-align: bottom;
+		}
+	</style>
+</head>
+<body>
+	<div class="box clearfix">
+		<div class="img"><img src="images/cover.png" alt="封面"></div>
+		<div class="content">
+			<h3>京城往事</h3>
+			<ul class="clearfix">
+				<li><a href="###">文学艺术</a></li>
+				<li>104745字</li>
+				<li>3706点击</li>
+			</ul>
+			<dl class="clearfix">
+				<dt>作　者：</dt>
+				<dd><a href="###">宋涵</a></dd>
+				<dt>出版社：</dt>
+				<dd>某某出版公司</dd>
+				<dt>关键词：</dt>
+				<dd>思考,时间,发现自我,听从内心,随笔,哲学,青春</dd>
+				<dt>授权方：</dt>
+				<dd><a href="###">生活书店出版出版有限公司</a><span class="a">授权作品,不得转载</span></dd>
+				<dt class="pingfen">评　分：</dt>
+				<dd>
+					<span class="star"></span>
+					<span class="star"></span>
+					<span class="star"></span>
+					<span class="star hui"></span>
+					<span class="star hui"></span>
+					<span class="b">3人<span class="shu">|</span><a href="###">我来评分</a></span>
+					<span class="c"><span class="pinglun">评论<a href="###">(4)</a></span><span class="fenxiang">分享</span></span>
+				</dd>
+			</dl>
+			<div class="btns">
+				<button class="btn">阅读</button>
+				<button class="btn btn1">放入书架</button>
+				<a href="###">放入购书单</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
